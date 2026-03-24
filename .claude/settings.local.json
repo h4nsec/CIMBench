@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:confluence.hl7.org)",
+      "WebFetch(domain:registry.fhir.org)",
+      "WebFetch(domain:hl7.org)",
+      "WebFetch(domain:fshschool.org)",
+      "Bash(npm create:*)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Users/User/AppData/Roaming/**)",
+      "Read(//c//**)",
+      "Bash(powershell.exe -command \"Get-Command node -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source\")",
+      "Bash(powershell.exe -command \"node --version; npm --version\")",
+      "Bash(npm --version)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/nodejs\")",
+      "Bash(echo \"exit: $?\")",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(curl -s http://localhost:5173)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:packages.fhir.org)",
+      "WebFetch(domain:packages2.fhir.org)",
+      "WebFetch(domain:simplifier.net)",
+      "WebFetch(domain:build.fhir.org)",
+      "Bash(/c/Users/User/AppData/Roaming/npm/npm.cmd run:*)",
+      "Read(//c/Users/User/AppData/Local/Programs//**)",
+      "Read(//c/Users/User/AppData/Local/Programs/**)",
+      "Read(//c/ProgramData/**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Bash(\"/c/Program Files/nodejs/npm.cmd\" run build)",
+      "Bash(\"/c/Program Files/nodejs/node.exe\" --version)",
+      "Bash(export PATH=\"/c/Program Files/nodejs:$PATH\")"
+    ]
+  }
+}
